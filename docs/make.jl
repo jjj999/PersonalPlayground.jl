@@ -8,6 +8,6 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/jjj999/PersonalPlaygound.jl.git",
+    repo = "github.com/jjj999/PersonalPlayground.jl.git",
     push_preview = true,
 )
