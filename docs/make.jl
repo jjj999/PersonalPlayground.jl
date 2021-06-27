@@ -3,7 +3,7 @@ include("./BuildDocs.jl")
 using Documenter
 using .BuildDocs
 
-makePkgDocs()
+BuildDocs.makePkgDocs()
 
 deploydocs(
     repo = "github.com/jjj999/PersonalPlayground.jl.git",
