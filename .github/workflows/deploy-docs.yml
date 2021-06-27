@@ -3,12 +3,12 @@ name: Documentation
 on:
   push:
     branches:
-      - main
+      - master
       - develop
     tags: '*'
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   build:
