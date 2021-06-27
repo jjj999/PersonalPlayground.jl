@@ -1,0 +1,7 @@
+name = "PersonalPlayground"
+uuid = "e2f8a6c4-4a98-4e69-b54f-543cafbbd057"
+authors = ["jjj999 <jjj999to@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
