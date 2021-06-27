@@ -1,11 +1,9 @@
-using Documenter
+include("./BuildDocs.jl")
 
-makedocs(
-    sitename="PersonalPlaygound.jl",
-    pages = [
-        "index.md",
-    ]
-)
+using Documenter
+using .BuildDocs
+
+makePkgDocs()
 
 deploydocs(
     repo = "github.com/jjj999/PersonalPlayground.jl.git",
