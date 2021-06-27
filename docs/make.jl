@@ -10,4 +10,5 @@ makedocs(
 deploydocs(
     repo = "github.com/jjj999/PersonalPlayground.jl.git",
     push_preview = true,
+    devbranch = "main",
 )
